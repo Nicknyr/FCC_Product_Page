@@ -1,8 +1,16 @@
+ul {
+  padding: 0;
+}
 
+a {
+  color: #446CB3;
+}
 
 @media only screen and (min-width: 300px) {
   body {
     background-color: snow;
+    color: #22313F;
+    margin: 0;
   }
 
   #header {
@@ -52,16 +60,21 @@
       text-transform: uppercase;
       border: none;
       font-size: 1em;
-      padding: 3px;
+      padding: 5px;
+      background-color: #446CB3;
+      color: snow;
     }
   }
 
   .features-section {
     height: auto;
     width: 100%;
-    background-color: yellow;
     margin: auto;
     text-align: center;
+
+    i {
+      display: none;
+    }
 
     h3 {
       font-weight: bolder;
@@ -76,6 +89,69 @@
         text-align: center;
         margin-top: 4em;
       }
+    }
+  }
+
+  .video-section {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+  }
+
+  .cards-section {
+    height: auto;
+    width: 100%;
+    //background-color: blue;
+
+    h3 {
+      margin: 0;
+      line-height: 2.5em;
+    }
+
+    .card-header {
+      background-color: #D3D3D3;
+      height: 3em;
+    }
+
+    .card-description {
+      padding: 1em;
+    }
+
+    ul {
+      width: 60%;
+      //background-color: yellow;
+      margin: auto;
+      padding: 0;
+
+      li {
+        border: 1px solid black;
+        list-style-type: none;
+        text-align: center;
+        margin-top: 1em;
+        //padding: 1em;
+      }
+    }
+
+    input {
+      background-color: #446CB3;
+      border: none;
+      height: auto;
+      width: 5em;
+      padding: 5px;
+      font-size: 1.2em;
+      text-transform: uppercase;
+      color: snow;
+      margin-bottom: .5em;
+    }
+  }
+
+  footer {
+    height: auto;
+    background-color: pink;
+    width: 100%;
+
+    ul {
+      padding: 0;
     }
   }
 
